@@ -1,0 +1,327 @@
+@font-face{
+    src: url(../fonts/Rubik-Bold.ttf);
+    font-family: "Rubik-Bold";
+
+    src: url(../fonts/Rubik-Regular.ttf);
+    font-family: "Rubik-Regular";
+}
+
+
+body{
+    background-color:#1E1E1E;
+}
+.here-tx,h1{
+    font-family: "Rubik-Regular";
+    color: #F2F2F2;
+}
+.mobile-screen{
+    font-family: "Rubik-Regular";
+    color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.laura-tx{
+font-family: "Rubik-Bold";
+color: #F2F2F2;
+}
+.welcome-tx{
+    font-family: "Rubik-Bold";
+    color: #F2F2F2;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+     background-color:#272727;
+     padding: 15px;
+     color: #F26760;
+     
+   }
+     .work{
+         height: 50px;
+         width: 100px;
+         font-size: 22px;
+         font-family: "Rubik-Bold";
+         padding: 16px;
+         color: #F26760;
+        cursor:pointer;
+        
+ 
+     }
+     .about{
+        height: 50px;
+        width: 100px;
+         font-size: 22px;
+         font-family: "Rubik-Regular";
+         padding: 16px;
+         color: rgba(255, 255, 255, 0.6);
+        cursor:pointer;
+ text-decoration: none;
+     }
+     
+     .about:hover{
+        
+        font-family: "Rubik-Regular";
+        color: #F26760;
+        transition-duration: 0.5s;
+        transition-timing-function: esase-in-out;
+        text-decoration: none;
+    }
+ 
+header{
+   
+    align-items: center;
+    height: 100%;
+    text-align: center;
+}
+    .laura-tx{
+        font-size: 50px;
+        padding-top: 78px;
+        color: #F2F2F2;
+    }
+    .welcome-tx{
+        font-size: 27px;
+        padding-top: 50px;
+        color: #F2F2F2;
+    }
+    .intro-tx{
+        padding-top: 16px;
+    }
+    .here-tx{
+        padding-top: 2px;
+    }
+.botonxxx{
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+}    
+
+.caja-tarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 16px;
+    margin-left: 60px;
+    margin-right: 60px;
+    align-self: center;
+}
+    .imagenTarjeta{
+        object-fit: cover;
+        border-radius: 11px;
+        height: 400px;
+        width: 450px;
+        margin: 30px;
+        
+    }
+   
+    .tarjeta{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 80px;
+ 
+    height: 400px;
+    width: 450px;
+    border-radius: 11px;
+    transition: all 0.5s;
+    /* position: relative; */
+    animation: fadeIn 1s forwards;
+
+    }
+    .tarjeta:hover .imagenTarjeta{
+        opacity: 0.6;
+    }
+
+
+    .tx-tarj-tit {
+        font-family: "Rubik-Bold";
+        font-size: 22px;
+        opacity: 0 ;
+        position: absolute;
+    top: 56px;
+    left:40px; 
+    color: #ffffff;
+    }
+    .tx-tarj-sub{
+        font-family: "Rubik-Regular";
+        font-size: 22px;
+        opacity: 0;
+        position: absolute;
+        top: 100px;
+        left: 40px; 
+        color: #ffffff;
+    }
+    .tarjeta:hover .tx-tarj-tit {
+        opacity: 1;
+        transition-duration: 0.5s;
+        transition-timing-function: esase-in-out;
+      }
+    .tarjeta:hover .tx-tarj-sub {
+        opacity: 1;
+       
+        transition-duration: 0.5s;
+        transition-timing-function: esase-in-out;
+      }
+
+    .tarjeta:hover .imagenTarjeta img{
+        opacity: .3;
+        transition-duration: 0.5s;
+        transition-timing-function: esase-in-out;
+    }
+
+
+ .boton {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+
+    
+    height: 69px;
+    width: 442px;
+    position: relative;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    position: relative;
+    z-index: 1;
+    font-size: 22px;
+    font-family: "Rubik-Regular";
+    border-radius: 11px;
+    color:rgba(255, 255, 255, 0.6);
+    background-color: #121212;
+  }
+  .boton > input {
+    display: none;
+  }
+  .boton > input:checked + label {
+    color: white;
+  }
+  .boton > input:nth-of-type(1):checked ~ label:last-of-type:before {
+    transform: translateX(calc(0% + 0px));
+  }
+  .boton > input:nth-of-type(2):checked ~ label:last-of-type:before {
+    transform: translateX(calc(100% + 0px));
+  }
+  
+  .boton label {
+ 
+    flex: 1;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+  }
+  .boton label:last-of-type:before {
+    content: "";
+    display: block;
+    max-width: calc(50% - 0px);
+    margin: 5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    transform: translateX(0);
+    border-radius:11px;
+    height: 49px;
+    width: 211px;
+    background-color: #F26760;
+
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+  }
+  .boton label {
+    padding: 6px 3px;
+
+    transition: color 250ms cubic-bezier(0, 0.95, 0.38, 0.98);
+  }
+  .boton label:before {
+    background: #fff;
+    transition: all 250ms cubic-bezier(0, 0.95, 0.38, 0.98);
+  }
+.insidefooter {
+    
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     background-color:#252525;
+     padding: 15px;
+    margin-top: 50px;
+}
+  .hey{
+    font-family: "Rubik-Regular";
+    font-size: 22px;
+    margin: auto;
+
+    color: #F2F2F2;
+    margin: 10px;
+  }
+  .lym{
+    display: flex;
+    align-items: flex-start;
+    align-content: space-around;
+    
+  }
+  .linkedin{
+    width: 44px;
+    height: 44px;
+    margin: 10px;
+      background-image: url("../resources/boton-l.svg");
+  }
+  .linkedin:hover{
+      background-image: url("../resources/boton-l-hover.svg");
+  }
+  .medium{
+    width: 44px;
+    height: 44px;
+    margin: 10px;
+    background-image: url("../resources/boton-m.svg");
+}
+
+.medium:hover{
+    background-image: url("../resources/boton-m-hover.svg");
+}
+
+
+#tarjetas-industrial {
+    display: none;
+
+}
+
+
+@media only screen and (max-width: 414px) {
+  .desktop-screen{
+      display: none;
+  }
+}
+@media only screen and (min-width: 415px) {
+    .desktop-screen{
+        display: block;}
+
+    .mobile-screen{
+        display: none;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
