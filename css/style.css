@@ -9,13 +9,11 @@
 }
 
 
+
 body{
-    background-color:#1E1E1E;
+background-color:#1E1E1E;
 }
-.here-tx,h1{
-    font-family: "Rubik-Regular";
-    color: #F2F2F2;
-}
+
 .mobile-screen{
     font-family: "Rubik-Regular";
     color: #F2F2F2;
@@ -23,55 +21,60 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+}
 
-}
-.laura-tx{
-font-family: "Rubik-Bold";
-color: #F2F2F2;
-}
-.welcome-tx{
+.laura-tx, .welcome-tx{
     font-family: "Rubik-Bold";
     color: #F2F2F2;
+    }
+
+h1, .here-tx, p {
+    font-family: "Rubik-Regular";
+    color: #F2F2F2;
+    size: 16px;
 }
 
-nav {
+.nav {
+padding-right: 100px;
+padding-bottom: 16px;
+padding-top: 16px;
     display: flex;
     justify-content: flex-end;
-     background-color:#272727;
-     padding: 15px;
-     color: #F26760;
-     
-   }
-     .work{
-         height: 50px;
-         width: 100px;
-         font-size: 22px;
-         font-family: "Rubik-Bold";
-         padding: 16px;
-         color: #F26760;
-        cursor:pointer;
-        
- 
-     }
-     .about{
-        height: 50px;
-        width: 100px;
-         font-size: 22px;
-         font-family: "Rubik-Regular";
-         padding: 16px;
-         color: rgba(255, 255, 255, 0.6);
-        cursor:pointer;
- text-decoration: none;
-     }
-     
-     .about:hover{
-        
-        font-family: "Rubik-Regular";
-        color: #F26760;
-        transition-duration: 0.5s;
-        transition-timing-function: esase-in-out;
-        text-decoration: none;
+    text-align: center;
+    background-color:#272727;
     }
+
+    .work{
+        padding: 16px;
+        margin-left: 8px;
+        margin-right: 8px;
+        align-self: center;
+        font-size: 22px;
+        font-family: "Rubik-Bold";
+        color: #F26760;
+        cursor:pointer;
+        text-decoration: none;
+        }
+
+    .about{
+        padding: 16px;
+        margin-right: 8px;
+        margin-left: 8px;
+        align-self: center;
+        font-size: 22px;
+        font-family: "Rubik-Regular";
+        color: rgba(255, 255, 255, 0.6);
+        cursor:pointer;
+        text-decoration: none;
+        }
+     
+        .about:hover{
+            font-family: "Rubik-Regular";
+            color: #F26760;
+            transition-duration: 0.5s;
+            transition-timing-function: esase-in-out;
+            text-decoration: none;
+            }
  
 header{
    
@@ -125,20 +128,20 @@ header{
     }
    
     .tarjeta{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-    margin-bottom: 80px;
- 
-    height: 400px;
-    width: 450px;
-    border-radius: 11px;
-    transition: all 0.5s;
-    /* position: relative; */
-    animation: fadeIn 1s forwards;
-
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 80px;
+    
+        height: 400px;
+        width: 450px;
+        border-radius: 11px;
+        transition: all 0.5s;
+        /* position: relative; */
+        animation: fadeIn 1s forwards;
     }
+
     .tarjeta:hover .imagenTarjeta{
         opacity: 0.6;
     }
