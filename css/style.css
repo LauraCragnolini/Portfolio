@@ -122,11 +122,16 @@ header{
         object-fit: cover;
         border-radius: 11px;
         height: 400px;
-        width: 450px;
-        margin: 30px;
+        width: 600px;
+    
         
     }
    
+.imgbox{
+    height: 400px;
+    width: 600px;
+ 
+}
     .tarjeta{
         display: flex;
         flex-wrap: wrap;
@@ -135,7 +140,7 @@ header{
         margin-bottom: 80px;
     
         height: 400px;
-        width: 450px;
+        width: 600px;
         border-radius: 11px;
         transition: all 0.5s;
         /* position: relative; */
@@ -143,7 +148,7 @@ header{
     }
 
     .tarjeta:hover .imagenTarjeta{
-        opacity: 0.6;
+        opacity: 0.2;
     }
 
 
@@ -152,8 +157,9 @@ header{
         font-size: 22px;
         opacity: 0 ;
         position: absolute;
-    top: 56px;
-    left:40px; 
+    top: 40px;
+    left:40px;
+    right: 40px; 
     color: #ffffff;
     }
     .tx-tarj-sub{
@@ -163,6 +169,7 @@ header{
         position: absolute;
         top: 100px;
         left: 40px; 
+        right:40px;
         color: #ffffff;
     }
     .tarjeta:hover .tx-tarj-tit {
