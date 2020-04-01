@@ -117,12 +117,14 @@ header{
     margin-left: 60px;
     margin-right: 60px;
     align-self: center;
+    ;
 }
     .imagenTarjeta{
         object-fit: cover;
         border-radius: 11px;
         height: 400px;
         width: 600px;
+        
     
         
     }
@@ -130,6 +132,7 @@ header{
 .imgbox{
     height: 400px;
     width: 600px;
+    
  
 }
     .tarjeta{
@@ -284,7 +287,7 @@ header{
   }
   .lym{
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     align-content: space-around;
     
   }
@@ -302,13 +305,34 @@ header{
     height: 44px;
     margin: 10px;
     background-image: url("../resources/boton-m.svg");
-}
-
-.medium:hover{
+    }
+    .medium:hover{
     background-image: url("../resources/boton-m-hover.svg");
-}
+    }
 
-
+    .dribbble{
+        width: 44px;
+        height: 44px;
+        margin: 10px;
+        background-image: url("../resources/drib\ blanco.svg");
+      
+    }
+        
+        .dribbble:hover{
+        background-image: url("../resources/drib\ hover.svg");
+        }
+        .mail{
+            width: 44px;
+            height: 44px;
+            margin: 10px;
+            background-image: url("../resources/mail\ b.svg");
+          
+        }
+            
+            .mail:hover{
+            background-image: url("../resources/mail\ r.svg");
+            }
+            
 #tarjetas-industrial {
     display: none;
 

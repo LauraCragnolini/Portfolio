@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="191px" height="43px" viewBox="0 0 191 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>soon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-65.000000, -242.000000)">
+            <g id="soon" transform="translate(65.707547, 242.000000)">
+                <path d="M182.792453,0 C186.934589,-7.6089797e-16 190.292453,3.35786438 190.292453,7.5 L190.292453,35.5 C190.292453,39.6421356 186.934589,43 182.792453,43 L24.7924532,43 C20.6503176,43 17.2924532,39.6421356 17.2924532,35.5 L17.292,32 L1.65901638,24.1832816 C0.177080891,23.4423138 -0.423592149,21.6402947 0.317375597,20.1583592 C0.6076667,19.577777 1.07843418,19.1070095 1.65901638,18.8167184 L17.292,11 L17.2924532,7.5 C17.2924532,3.35786438 20.6503176,-1.2728045e-16 24.7924532,0 L182.792453,0 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+                <text id="Coming-Soon" font-family="Rubik-Bold, Rubik" font-size="22" font-weight="bold" fill="#F26761">
+                    <tspan x="31.2924532" y="29">Coming Soon</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
