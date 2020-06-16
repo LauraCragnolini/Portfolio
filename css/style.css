@@ -36,8 +36,8 @@ h1, .here-tx, p {
 
 .nav {
 padding-right: 50px;
-padding-bottom: 10px;
-padding-top: 10px;
+padding-bottom: 8px;
+padding-top: 8px;
     display: flex;
     justify-content: flex-end;
     text-align: center;
@@ -45,17 +45,16 @@ padding-top: 10px;
     margin-bottom: 100px;
     }
 
-    .work{
+    .nav-link-on{
         padding: 16px;
         align-self: center;
         font-size: 18px;
         font-family: "Rubik-Regular";
         color: #F26760;
         cursor:pointer;
-        text-decoration: none;
         }
 
-    .about{
+    .nav-link{
         padding: 16px;
         align-self: center;
         font-size: 18px;
@@ -65,12 +64,13 @@ padding-top: 10px;
         text-decoration: none;
         }
      
-        .about:hover{
+        .nav-link:hover{
             color: #F26760;
             transition-duration: 0.5s;
             transition-timing-function: esase-in-out;
             text-decoration: none;
             }
+        
  
 header{
    
@@ -154,6 +154,7 @@ color: #ffffff;
         flex-wrap: wrap;
         align-items: center;
         justify-content: space-around;
+        margin: 40px;
         margin-bottom: 80px;
     
         height: 400px;
@@ -361,18 +362,82 @@ color: #ffffff;
 
 
 @media only screen and (max-width: 414px) {
-  .desktop-screen{
+  /*.desktop-screen{
       display: none;
-  }
-}
-@media only screen and (min-width: 415px) {
-    .desktop-screen{
-        display: block;}
+  }*/
+  /* For mobile phones*/
+.mobile-screen{
+    display: none;  
 
-    .mobile-screen{
+}
+.tx-tarj-unavailable{
+    display: none;
+}
+.tx-tarj-tit{
+    display: none;
+}
+.tx-tarj-sub{
+    display: none;
+}
+.caja-tarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+    align-self: center;
+    ;
+}
+
+}
+.imagenTarjeta{
+object-fit: cover;
+border-radius: 11px;
+
+}
+
+.imgbox{
+height: auto;
+max-width: 600px;
+}
+
+.tarjeta{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-around;
+margin: 16px;
+margin-bottom: 16px;
+
+height:auto;
+width: auto;
+border-radius: 11px;
+transition: all 0.5s;
+/* position: relative; */
+animation: fadeIn 1s forwards;
+}
+
+
+@media only screen and (max-width: 414px) {
+    .desktop-screen{
         display: none;
     }
-}
+    .mobile-screen{
+        display: block;
+    }
+  }
+  @media only screen and (min-width: 415px) {
+      .desktop-screen{
+          display: block;}
+  
+      .mobile-screen{
+          display: none;
+      }
+  }
+  
 
 @keyframes fadeIn {
     from {

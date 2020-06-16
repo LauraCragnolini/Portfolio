@@ -1,0 +1,114 @@
+@font-face{
+    src: url("../fonts/Rubik-Bold.ttf");
+    font-family: "Rubik-Bold";
+}
+
+@font-face {
+    src: url("../fonts/Rubik-Regular.ttf");
+    font-family: "Rubik-Regular";
+}
+@media only screen and (max-width: 414px) {
+    .desktop-screen{
+        display: none;
+    }
+    .mobile-screen{
+        display: block;
+    }
+  }
+  @media only screen and (min-width: 415px) {
+      .desktop-screen{
+          display: block;}
+  
+      .mobile-screen{
+          display: none;
+      }
+  }
+
+body{
+    background-color:#1E1E1E;
+}
+.nav {
+    padding-right: 50px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+        display: flex;
+        justify-content: flex-end;
+        text-align: center;
+        background-color:#272727;
+        margin-bottom: 100px;
+        }
+    
+        .nav-link-on{
+            padding: 16px;
+            align-self: center;
+            font-size: 18px;
+            font-family: "Rubik-Regular";
+            color: #F26760;
+            cursor:pointer;
+            }
+    
+        .nav-link{
+            padding: 16px;
+            align-self: center;
+            font-size: 18px;
+            font-family: "Rubik-Regular";
+            color: rgba(255, 255, 255, 0.6);
+            cursor:pointer;
+            text-decoration: none;
+            }
+         
+            .nav-link:hover{
+                color: #F26760;
+                transition-duration: 0.5s;
+                transition-timing-function: esase-in-out;
+                text-decoration: none;
+                }
+
+.lym{
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+justify-self: center;
+justify-content: center;
+    
+  }
+  .linkedin{
+    width: 44px;
+    height: 44px;
+    margin: 10px;
+      background-image: url("../resources/boton-l.svg");
+  }
+  .linkedin:hover{
+      background-image: url("../resources/boton-l-hover.svg");
+  }
+  .medium{
+    width: 44px;
+    height: 44px;
+    margin: 10px;
+    background-image: url("../resources/boton-m.svg");
+    }
+    .medium:hover{
+    background-image: url("../resources/boton-m-hover.svg");
+    }
+    .dribbble{
+        width: 44px;
+        height: 44px;
+        margin: 10px;
+        background-image: url("../resources/drib\ blanco.svg");
+      
+    }
+        
+        .dribbble:hover{
+        background-image: url("../resources/drib\ hover.svg");
+        }
+        .mail{
+            width: 44px;
+            height: 44px;
+            margin: 10px;
+            background-image: url("../resources/mail\ b.svg");
+          
+        }
+            
+            .mail:hover{
+            background-image: url("../resources/mail\ r.svg");
+            }
