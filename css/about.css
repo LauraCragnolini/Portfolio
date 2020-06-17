@@ -34,7 +34,10 @@ h1{
 .column{ 
     width: 220px;
     justify-content: center;
-    padding: 15px;
+    padding: 16px;
+    background-color:#252525;
+    border-radius: 11px;
+    margin: 16px;
 }
     .mobile-screen{
         font-family: "Rubik-Regular";
@@ -93,7 +96,7 @@ h1{
         margin: 20px;   
     }
     .imgyo{
-        max-width: 150px;
+        max-width: 300px;
         height: auto;
         margin: 20px;
         border-radius: 11px;
@@ -106,6 +109,13 @@ h1{
     background-color: #121212;
     padding: 100px;
 }
+    .reading_n_listening{
+        display: none;
+    /*    display: flex;
+        justify-content: center;
+    */
+    }
+
 
     .insidefooter {
     

@@ -127,9 +127,9 @@ color: #ffffff;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-    margin: 16px;
-    margin-left: 60px;
-    margin-right: 60px;
+    margin: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
     align-self: center;
     ;
 }
@@ -409,7 +409,7 @@ display: flex;
 flex-wrap: wrap;
 align-items: center;
 justify-content: space-around;
-margin: 16px;
+margin: 24px;
 margin-bottom: 16px;
 
 height:auto;
